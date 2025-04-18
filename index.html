@@ -7,8 +7,15 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="sectionHero sections">
@@ -18,11 +25,27 @@
             <img src="assets/img/logo.png" alt="logo E-commerce" />
           </div>
           <div class="search-wrapper">
-            <input type="search" name="search" id="searchLogo" class="headerHero__search pallet-ligth" placeholder="O que procura?">
+            <input
+              type="search"
+              name="search"
+              id="searchLogo"
+              class="headerHero__search pallet-ligth"
+              placeholder="busque por produto, categorias ou marcas..."
+            />
             <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="headerHero__cta">
+            <a href="#" class="atendimento-header"
+              ><div class="icon-cta"><i class="fas fa-comments  pallet-ligth2"></i></div>
+              <div class="content-cta">
+                <p>central e</p>
+                <span>atendimento <i class="fas fa-chevron-down"></i></span>
+              </div></a
+            >
           </div>
           <div class="headerHero__cart">
             <i class="fa-solid fa-cart-shopping pallet-ligth2"></i>
+            <span class="cart-count">0</span>
           </div>
         </div>
         <div class="headerHero__menu">
@@ -36,6 +59,29 @@
           </nav>
         </div>
       </header>
+
+      <main class="mainHero pallet-ligth">
+        <div class="mainHero__content">
+          <div class="caroussel_container">
+            <div class="caroussel">
+              <div class="card_caroussel">
+                <img src="assets/caroussel/vestido1.png" alt="caroussel" />
+              </div>
+              <div class="card_caroussel">
+                <img src="assets/caroussel/vestido2.png" alt="caroussel" />
+              </div>
+              <div class="card_caroussel">
+                <img src="assets/caroussel/vestido3.png" alt="caroussel" />
+              </div>
+              <button id="prevBtn">⬅️</button>
+              <button id="nextBtn">➡️</button>
+            </div>
+          </div>
+          <h1>Moda evangélica com propósito e elegância</h1>
+          <p>Encontre peças que exaltam sua fé e estilo.</p>
+          <a href="#colecao" class="cta">Conheça a Coleção</a>
+        </div>
+      </main>
     </section>
   </body>
 </html>
