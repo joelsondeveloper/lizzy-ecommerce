@@ -48,6 +48,7 @@ a {
 .sectionHero {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 .top-bar {
@@ -198,6 +199,7 @@ a {
 
 .mainHero__content{
   width: 100%;
+  background-color: var(--background-color);
 }
 
 .caroussel_container{
@@ -280,10 +282,12 @@ a {
 .colecoes{
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
 }
 .colecoes h2{
-  margin: 2rem 0;
+  margin: 2rem 0 0;
 }
 
 .cards-colecoes{
@@ -291,6 +295,8 @@ a {
   width: 100%;
   gap: 3rem;
   /* height: 20rem; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .card{
@@ -298,7 +304,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  margin: 2rem;
   transition: scale .3s ease-in-out;
 }
 
@@ -307,6 +313,29 @@ a {
 }
 
 .cards-colecoes img{
-  width: 15rem;
+  width: 13rem;
   border-radius: 10px;
+}
+
+#prevBtnColecao, #nextBtnColecao{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.2rem;
+  cursor: pointer;
+  color: var(--text-color);
+  transition: all .2s ease-in-out;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border-radius: 50%; */
+  background-color: var(--bg-color);
+  border: none;
+  outline: none;
+  z-index: 1;
+  display: block;
+}
+
+#nextBtnColecao{
+  right: 0;
 }

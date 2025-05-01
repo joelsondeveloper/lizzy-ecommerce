@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <section class="sectionHero sections">
+    <section class="sectionHero">
       <header class="headerHero pallet-ligth2">
         <div class="top-bar">
           <div class="headerHero__logo">
@@ -36,12 +36,15 @@
           </div>
           <div class="headerHero__cta">
             <a href="#" class="atendimento-header"
-              ><div class="icon-cta"><i class="fas fa-comments  pallet-ligth2"></i></div>
+              ><div class="icon-cta">
+                <i class="fas fa-comments pallet-ligth2"></i>
+              </div>
               <div class="content-cta">
                 <p>central e</p>
-                <span>atendimento <i class="fas fa-chevron-down"></i></span>
-              </div></a
-            >
+                <span
+                  >atendimento <i class="fas fa-chevron-down"></i
+                ></span></div
+            ></a>
           </div>
           <div class="headerHero__cart">
             <i class="fa-solid fa-cart-shopping pallet-ligth2"></i>
@@ -63,7 +66,7 @@
       <main class="mainHero pallet-ligth">
         <div class="mainHero__content">
           <div class="caroussel_container">
-            <div class="caroussel ">
+            <div class="caroussel">
               <div class="card_caroussel">
                 <img src="assets/caroussel/vestido1.png" alt="caroussel" />
               </div>
@@ -85,24 +88,65 @@
       <h2>Coleções em destaque</h2>
       <div class="cards-colecoes">
         <div class="card">
-          <img src="assets/colecao/vestido.png" alt="">
+          <img src="assets/colecao/vestido.png" alt="" />
           <h3>Vestidos</h3>
         </div>
         <div class="card">
-          <img src="assets/colecao/conjunto.png" alt="Conjuntos">
+          <img src="assets/colecao/conjunto.png" alt="Conjuntos" />
           <h3>Conjuntos</h3>
         </div>
         <div class="card">
-          <img src="img/plus-size.jpg" alt="Moda Plus Size">
+          <img src="assets/colecao/plus-size.png" alt="Moda Plus Size" />
           <h3>Plus Size</h3>
         </div>
         <div class="card">
-          <img src="img/lancamentos.jpg" alt="Lançamentos">
-          <h3>Lançamentos</h3>
+          <img src="assets/colecao/longos.jpg" alt="Vestidos Longos" />
+          <h3>Longos</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/midi.jpg" alt="Vestidos Midi" />
+          <h3>Midi</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/blusas.webp" alt="Blusas Evangélicas" />
+          <h3>Blusas</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/saia-jeans.png" alt="Saias Jeans" />
+          <h3>Saias Jeans</h3>
+        </div>
+        <div class="card">
+          <img
+            src="assets/colecao/classico.jpg"
+            alt="Moda Evangélica Clássica"
+          />
+          <h3>Clássico</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/social.jpg" alt="Moda Social" />
+          <h3>Social</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/juvenil.jpg" alt="Moda Jovem Evangélica" />
+          <h3>Juvenil</h3>
+        </div>
+        <div class="card">
+          <img
+            src="assets/colecao/cores-vivas.png"
+            alt="Moda Colorida Cristã"
+          />
+          <h3>Cores Vivas</h3>
+        </div>
+        <div class="card">
+          <img src="assets/colecao/acessorios.png" alt="Acessórios" />
+          <h3>Acessórios</h3>
         </div>
       </div>
+      <button id="prevBtnColecao">⬅️</button>
+      <button id="nextBtnColecao">➡️</button>
     </section>
 
     <script src="js//caroussel.js"></script>
+    <script src="js//colecao.js"></script>
   </body>
 </html>

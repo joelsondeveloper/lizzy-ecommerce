@@ -10,7 +10,7 @@ function showSlide(index) {
         caroussel[i].classList.remove("caroussel_ativo");
     });
 
-    console.log(caroussel[index]);
+    // console.log(caroussel[index]);
     caroussel[index].classList.add("caroussel_ativo");
 }
 
