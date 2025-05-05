@@ -11,6 +11,11 @@
   --background-color2: #faeee7;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -30,6 +35,16 @@ body {
 .pallet-ligth2{
   background-color: var(--background-color2);
   color: var(--text-color);
+}
+
+.pallet-card{
+  background-color: var(--background-color2);
+  color: var(--text-color);
+  
+}
+
+.pallet-card p{
+  color: var(--line-color);
 }
 
 h1, h2, h3 {
@@ -99,6 +114,7 @@ a {
   margin: 0 1.6rem;
   font-size: 1.2rem;
   flex-shrink: 0;
+  position: relative;
 }
 
 .headerHero__cta .atendimento-header{
@@ -106,6 +122,33 @@ a {
   justify-content: center;
   align-items: center;
   gap: .6rem;
+}
+
+.hide{
+  display: none;
+}
+
+.dropdown-cta{
+  /* display: none; */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  background-color: var(--background-color);
+  border-radius: .5rem;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.dropdown-cta ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.dropdown-cta ul li{
+  list-style: none;
 }
 
 .headerHero__cta .fa-comments{
@@ -259,11 +302,8 @@ a {
   cursor: pointer;
   color: var(--text-color);
   transition: all .2s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
   background-color: var(--bg-color);
+  display: flex;
   border: none;
   outline: none;
   z-index: 1;
@@ -271,7 +311,7 @@ a {
 }
 
 #nextBtnBanner{
-  right: 1.6rem;
+  right: 0;
 }
 
 .caroussel:hover #prevBtnBanner, .caroussel:hover #nextBtnBanner{
@@ -297,9 +337,10 @@ a {
   /* height: 20rem; */
   overflow-x: hidden;
   scroll-behavior: smooth;
+  /* padding: 0 5rem; */
 }
 
-.card{
+.cards-colecoes .card, .sugestoes-container .card{
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -320,7 +361,7 @@ a {
 .prevBtn, .nextBtn{
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   font-size: 3.2rem;
   cursor: pointer;
   color: var(--text-color);
@@ -336,8 +377,12 @@ a {
   display: block;
 }
 
+.prevBtn{
+  left: -2rem;
+}
+
 .nextBtn{
-  right: 0;
+  right: -2rem;
 }
 
 /* sugestoes */
@@ -347,4 +392,41 @@ a {
   width: 90%;
   margin: 0 auto;
   position: relative;
+}
+
+.sugestoes-container .card{
+  padding: 1rem 3rem;
+  border: 2px solid var(--line-color);
+  border-radius: 10px;
+}
+
+/* novidades */
+
+.novidades{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem;
+}
+
+.section-novidades{
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+  margin: 2rem auto;
+}
+
+.novidades .card{
+  width: 25%;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.novidades .card img{
+  width: 100%;
+  border-radius: 10px;
 }
