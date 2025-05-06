@@ -35,4 +35,4 @@ prevBtnColecao.forEach(btn => {
     });
 })
 
-verificarScroll();
+// verificarScroll();
