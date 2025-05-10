@@ -22,21 +22,20 @@ fetch("produtos/produtos.json")
       const imgs = document.querySelectorAll(".product-img-item");
       const arrCarrouselIndice = Array.from(carrouselIndice.querySelectorAll("img"));
       let index = arrCarrouselIndice.indexOf(e.target);
-      let indexAntigo = Array.from(imgs).findIndex((img) => img.classList.contains("imgAlvo"));
     if (e.target.nodeName === "IMG") {
-      console.log(indexAntigo);
       imgs.forEach((img, i) => {
         img.classList.remove("imgAlvo");
         if (index === i) {
           img.classList.add("imgAlvo");
         }
       });
-      updateCarrousel(indexAntigo,index);
+      updateCarrousel(index);
     }
   });
 
   function renderPage(produto) {
     const productImg = document.querySelector(".product-img");
+    const productContent = document.querySelector(".product-content");
 
     for (let i = 0; i < produto[0].imagem.length; i++) {
       const divIndice = document.createElement("div");
@@ -56,11 +55,61 @@ fetch("produtos/produtos.json")
       containImg.appendChild(img);
     }
     const arrCarrouselIndice = carrouselIndice.querySelectorAll("div");
+
+    const h1 = document.createElement("h1");
+    const description = document.createElement("p");
+    const productPrice = document.createElement("div");
+    const productColor = document.createElement("div");
+    const productSize = document.createElement("div");
+    const productCta = document.createElement("div");
+
+    
+    productPrice.classList.add("product-price");
+    productColor.classList.add("product-color");
+    productSize.classList.add("product-size");
+    productCta.classList.add("product-cta");
+    
+    h1.textContent = produto[0].nome;
+    description.textContent = produto[0].descricao;
+    productPrice.innerHTML = `
+      <p class="product-price-vista">
+        <span class="price">R$ ${produto[0].preco}</span>
+        <span>à vista</span> 
+      </p>
+      <p class="product-price-parcela">ou <span class="price">R$ ${produto[0].preco}</span> em 3x de <span class="price">R$ ${(produto[0].preco / 3).toFixed(2)}</span></p>
+    `;
+    productColor.innerHTML = `
+      <h2>Escolha a cor:</h2>
+      <div class="product-color-variants">
+        <div class="color-variant"></div>
+        <div class="color-variant"></div>
+        <div class="color-variant"></div>
+        <div class="color-variant"></div>
+      </div>
+    `;
+    productSize.innerHTML = `
+      <h2>Escolha o tamanho:</h2>
+      <div class="product-size-variants">
+        <label for="pp" class="size-variant">PP</label>
+        <label for="p" class="size-variant">P</label>
+        <label for="m" class="size-variant">M</label>
+        <label for="G" class="size-variant">G</label>
+        <label for="gg" class="size-variant">GG</label>
+      </div>
+    `;
+    productCta.innerHTML = `
+      <button>Adicionar ao carrinho</button>
+    `;
+    
+    productContent.appendChild(h1);
+    productContent.appendChild(description);
+    productContent.appendChild(productPrice);
+    productContent.appendChild(productColor);
+    productContent.appendChild(productSize);
+    productContent.appendChild(productCta);
   }
 
-function updateCarrousel(indexAntigo, index) {
+function updateCarrousel(index) {
   const largura = containImg.getBoundingClientRect().width + 10;
-  const distancia = index - indexAntigo;
-  containImg.style.transform += `translateX(${(-largura * distancia)}px)`; 
-  console.log(distancia);
+  containImg.style.transform = `translateX(${-largura * index}px)`;
 }

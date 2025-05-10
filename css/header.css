@@ -9,6 +9,7 @@
     --text-color: #594a4e;
     --line-color: #33272a;
     --background-color2: #faeee7;
+    --background-pink: #ffc6c7;
   }
   
   html,
@@ -123,7 +124,7 @@
   }
   
   .hide{
-    display: none;
+    opacity: 0;
   }
   
   .dropdown-cta{
@@ -136,6 +137,8 @@
     border-radius: .5rem;
     padding: 1rem;
     z-index: 2;
+    overflow: hidden;
+    transition: opacity .3s ease-in-out;
   }
   
   .dropdown-cta ul{
@@ -227,4 +230,17 @@
   
   .headerHero__menu ul li a:hover::after{
     width: 100%;
+  }
+
+  /* secitonCart */
+
+  .sectionCart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 33.33%;
+    height: 100vh;
+    background-color: var(--background-color);
+    z-index: 9;
+    display: none;
   }

@@ -1,100 +1,159 @@
-
 [
   {
     "id": "vestidos",
     "nome": "Vestidos",
-    "imagem": "assets/colecao/vestido.png",
-    "descricao": "Coleção de Vestidos",
-    "tags": ["vestidos", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/vestido.png"],
+    "descricao": "Explore nossa coleção de vestidos.",
+    "categoria": "vestidos",
+    "tags": ["vestidos", "colecao", "moda feminina"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-VEST-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "conjuntos",
     "nome": "Conjuntos",
-    "imagem": "assets/colecao/conjunto.png",
-    "descricao": "Coleção de Conjuntos",
-    "tags": ["conjuntos", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/conjunto.png"],
+    "descricao": "Explore nossa coleção de conjuntos.",
+    "categoria": "conjuntos",
+    "tags": ["conjuntos", "colecao", "moda feminina"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-CONJ-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "plus-size",
     "nome": "Plus Size",
-    "imagem": "assets/colecao/plus-size.png",
-    "descricao": "Moda Plus Size",
-    "tags": ["plus size", "moda plus size", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/plus-size.png"],
+    "descricao": "Explore nossa coleção de moda plus size.",
+    "categoria": "plus-size",
+    "tags": ["plus-size", "colecao", "moda feminina"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-PLUS-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "vestidos-longos",
     "nome": "Longos",
-    "imagem": "assets/colecao/longos.jpg",
-    "descricao": "Vestidos Longos",
-    "tags": ["longos", "vestidos longos", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/longos.jpg"],
+    "descricao": "Explore nossa coleção de vestidos longos.",
+    "categoria": "vestidos-longos",
+    "tags": ["vestidos", "longos", "colecao"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-LONG-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "vestidos-midi",
     "nome": "Midi",
-    "imagem": "assets/colecao/midi.jpg",
-    "descricao": "Vestidos Midi",
-    "tags": ["midi", "vestidos midi", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/midi.jpg"],
+    "descricao": "Explore nossa coleção de vestidos midi.",
+    "categoria": "vestidos-midi",
+    "tags": ["vestidos", "midi", "colecao"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-MIDI-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "blusas",
     "nome": "Blusas",
-    "imagem": "assets/colecao/blusas.webp",
-    "descricao": "Blusas Evangélicas",
-    "tags": ["blusas", "blusas evangélicas", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/blusas.webp"],
+    "descricao": "Explore nossa coleção de blusas.",
+    "categoria": "blusas",
+    "tags": ["blusas", "colecao", "moda feminina"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-BLUS-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "saias-jeans",
     "nome": "Saias Jeans",
-    "imagem": "assets/colecao/saia-jeans.png",
-    "descricao": "Saias Jeans",
-    "tags": ["saias jeans", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/saia-jeans.png"],
+    "descricao": "Explore nossa coleção de saias jeans.",
+    "categoria": "saias-jeans",
+    "tags": ["saias", "jeans", "colecao"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-SAIAJ-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "classico",
     "nome": "Clássico",
-    "imagem": "assets/colecao/classico.jpg",
-    "descricao": "Moda Evangélica Clássica",
-    "tags": ["clássico", "moda evangélica clássica", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/classico.jpg"],
+    "descricao": "Explore nossa coleção de moda clássica.",
+    "categoria": "classico",
+    "tags": ["classico", "colecao", "moda evangelica"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-CLAS-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "social",
     "nome": "Social",
-    "imagem": "assets/colecao/social.jpg",
-    "descricao": "Moda Social",
-    "tags": ["social", "moda social", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/social.jpg"],
+    "descricao": "Explore nossa coleção de moda social.",
+    "categoria": "social",
+    "tags": ["social", "colecao", "moda feminina"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-SOCI-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "juvenil",
     "nome": "Juvenil",
-    "imagem": "assets/colecao/juvenil.jpg",
-    "descricao": "Moda Jovem Evangélica",
-    "tags": ["juvenil", "moda jovem evangélica", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/juvenil.jpg"],
+    "descricao": "Explore nossa coleção de moda juvenil.",
+    "categoria": "juvenil",
+    "tags": ["juvenil", "colecao", "moda jovem"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-JUVE-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "cores-vivas",
     "nome": "Cores Vivas",
-    "imagem": "assets/colecao/cores-vivas.png",
-    "descricao": "Moda Colorida Cristã",
-    "tags": ["cores vivas", "moda colorida cristã", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/cores-vivas.png"],
+    "descricao": "Explore nossa coleção de peças com cores vivas.",
+    "categoria": "cores-vivas",
+    "tags": ["cores-vivas", "colorido", "colecao"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-CORE-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
-    "id": "acessorios-colecao",
+    "id": "acessorios",
     "nome": "Acessórios",
-    "imagem": "assets/colecao/acessorios.png",
-    "descricao": "Coleção de Acessórios",
-    "tags": ["acessórios", "colecao"],
-    "destaque": true
+    "preco": null,
+    "imagem": ["assets/colecao/acessorios.png"],
+    "descricao": "Explore nossa coleção de acessórios.",
+    "categoria": "acessorios",
+    "tags": ["acessorios", "colecao", "bijuteria"],
+    "destaque": false,
+    "estoque": 0,
+    "sku": "CAT-ACES-001",
+    "secoes": ["colecoesDestaque"]
   },
   {
     "id": "vestido-floral-primavera",
@@ -105,24 +164,34 @@
       "assets/colecao/vestido.png",
       "assets/colecao/vestido.png"
     ],
-    "descricao": "Lindo vestido floral, perfeito para a primavera e ocasiões especiais. Tecido leve e confortável.",
+    "descricao": "Lindo Vestido Floral Primavera, perfeito para a estação. Conforto e estilo para seu dia a dia.",
     "categoria": "vestidos",
-    "tags": ["vestido", "floral", "primavera", "evangelico", "feminino"],
-    "destaque": false
+    "tags": ["vestido", "floral", "primavera", "estampado", "moda feminina"],
+    "destaque": false,
+    "estoque": 15,
+    "sku": "VES-FLO-001",
+    "coresDisponiveis": [
+      "Estampa Floral Clara",
+      "Estampa Floral Escura",
+      "Floral com Fundo Rosa"
+    ],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "conjunto-elegancia-crista",
     "nome": "Conjunto Elegância Cristã",
     "preco": 189.9,
-    "imagem": [
-      "assets/colecao/conjunto.png",
-      "assets/colecao/conjunto.png",
-      "assets/colecao/conjunto.png"
-    ],
-    "descricao": "Conjunto sofisticado para mulheres cristãs, ideal para cultos e eventos formais. Combina saia e blusa.",
+    "imagem": ["assets/colecao/conjunto.png", "assets/colecao/conjunto.png"],
+    "descricao": "Conjunto sofisticado para ocasiões especiais, transmitindo elegância e fé.",
     "categoria": "conjuntos",
-    "tags": ["conjunto", "elegancia", "crista", "social", "feminino"],
-    "destaque": false
+    "tags": ["conjunto", "elegancia", "crista", "moda evangelica"],
+    "destaque": false,
+    "estoque": 10,
+    "sku": "CON-ELE-001",
+    "coresDisponiveis": ["Azul Marinho", "Preto", "Vinho"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "plus-size-conforto-fe",
@@ -133,24 +202,30 @@
       "assets/colecao/plus-size.png",
       "assets/colecao/plus-size.png"
     ],
-    "descricao": "Peça plus size que une conforto e fé, design moderno e caimento perfeito para valorizar suas curvas.",
+    "descricao": "Peça plus size que une conforto e mensagens de fé, valorizando suas curvas.",
     "categoria": "plus-size",
-    "tags": ["plus size", "conforto", "fé", "moda evangelica", "feminino"],
-    "destaque": false
+    "tags": ["plus-size", "conforto", "fe", "moda feminina"],
+    "destaque": false,
+    "estoque": 18,
+    "sku": "PLU-CFE-001",
+    "coresDisponiveis": ["Preto", "Verde Militar", "Terracota"],
+    "tamanhosDisponiveis": ["GG", "XG", "G1", "G2"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "vestido-longo-de-louvor",
     "nome": "Vestido Longo de Louvor",
     "preco": 159.9,
-    "imagem": [
-      "assets/colecao/longos.jpg",
-      "assets/colecao/longos.jpg",
-      "assets/colecao/longos.jpg"
-    ],
-    "descricao": "Vestido longo ideal para momentos de louvor e adoração. Elegância e modéstia em uma só peça.",
+    "imagem": ["assets/colecao/longos.jpg", "assets/colecao/longos.jpg"],
+    "descricao": "Vestido longo ideal para momentos de louvor e adoração, com caimento impecável.",
     "categoria": "vestidos",
-    "tags": ["vestido", "longo", "louvor", "evangelico", "feminino"],
-    "destaque": false
+    "tags": ["vestido", "longo", "louvor", "moda evangelica"],
+    "destaque": false,
+    "estoque": 12,
+    "sku": "VES-LOU-001",
+    "coresDisponiveis": ["Branco", "Azul Celeste", "Rosa Claro"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "midi-chic-evangelico",
@@ -161,24 +236,30 @@
       "assets/colecao/midi.jpg",
       "assets/colecao/midi.jpg"
     ],
-    "descricao": "Vestido midi super chic e comportado, perfeito para o dia a dia da mulher evangélica moderna.",
+    "descricao": "Vestido midi elegante e comportado, perfeito para o dia a dia da mulher cristã.",
     "categoria": "vestidos",
-    "tags": ["midi", "chic", "evangelico", "vestido", "feminino"],
-    "destaque": false
+    "tags": ["vestido", "midi", "chic", "evangelico"],
+    "destaque": false,
+    "estoque": 20,
+    "sku": "VES-MID-001",
+    "coresDisponiveis": ["Preto", "Nude", "Marsala"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "blusa-de-culto-feminina",
     "nome": "Blusa de Culto Feminina",
     "preco": 89.9,
-    "imagem": [
-      "assets/colecao/blusas.webp",
-      "assets/colecao/blusas.webp",
-      "assets/colecao/blusas.webp"
-    ],
-    "descricao": "Blusa feminina elegante e modesta, ideal para ir ao culto e outras ocasiões especiais.",
+    "imagem": ["assets/colecao/blusas.webp", "assets/colecao/blusas.webp"],
+    "descricao": "Blusa feminina delicada e apropriada para cultos e eventos religiosos.",
     "categoria": "blusas",
-    "tags": ["blusa", "culto", "feminina", "evangelica"],
-    "destaque": false
+    "tags": ["blusa", "culto", "feminina", "moda evangelica"],
+    "destaque": false,
+    "estoque": 25,
+    "sku": "BLU-CUL-001",
+    "coresDisponiveis": ["Branca", "Off-white", "Azul Claro"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "saia-jeans-reta-crista",
@@ -189,27 +270,33 @@
       "assets/colecao/saia-jeans.png",
       "assets/colecao/saia-jeans.png"
     ],
-    "descricao": "Saia jeans de corte reto, uma peça chave no guarda-roupa da mulher cristã. Versátil e confortável.",
+    "descricao": "Saia jeans com modelagem reta, versátil e ideal para um look cristão moderno.",
     "categoria": "saias",
-    "tags": ["saia", "jeans", "reta", "crista", "evangelica"],
-    "destaque": false
+    "tags": ["saia", "jeans", "reta", "crista", "moda evangelica"],
+    "destaque": false,
+    "estoque": 22,
+    "sku": "SAI-JEA-001",
+    "coresDisponiveis": ["Jeans Claro", "Jeans Médio", "Jeans Escuro"],
+    "tamanhosDisponiveis": ["36", "38", "40", "42", "44"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "classico-sagrado",
     "nome": "Clássico Sagrado",
     "preco": 139.9,
-    "imagem": [
-      "assets/colecao/classico.jpg",
-      "assets/colecao/classico.jpg",
-      "assets/colecao/classico.jpg"
-    ],
-    "descricao": "Peça da linha Clássico Sagrado, com design atemporal e elegante para a mulher evangélica.",
-    "categoria": "classico",
-    "tags": ["classico", "sagrado", "moda evangelica", "feminino"],
-    "destaque": false
+    "imagem": ["assets/colecao/classico.jpg", "assets/colecao/classico.jpg"],
+    "descricao": "Peça clássica com inspiração sagrada, atemporal e elegante.",
+    "categoria": "vestidos",
+    "tags": ["classico", "sagrado", "moda evangelica", "atemporal"],
+    "destaque": false,
+    "estoque": 10,
+    "sku": "CLA-SAG-001",
+    "coresDisponiveis": ["Preto", "Cinza Chumbo", "Bege"],
+    "tamanhosDisponiveis": ["M", "G", "GG"],
+    "secoes": ["vocePodeGostar"]
   },
   {
-    "id": "social-elegancia-crista-produto",
+    "id": "social-elegancia-crista",
     "nome": "Social Elegância Cristã",
     "preco": 179.9,
     "imagem": [
@@ -217,27 +304,37 @@
       "assets/colecao/social.jpg",
       "assets/colecao/social.jpg"
     ],
-    "descricao": "Roupa social que reflete a elegância cristã, perfeita para eventos formais e ambientes de trabalho.",
-    "categoria": "social",
-    "tags": ["social", "elegancia", "crista", "moda evangelica", "feminino"],
-    "destaque": false
+    "descricao": "Look social que reflete a elegância cristã, ideal para eventos formais.",
+    "categoria": "conjuntos",
+    "tags": ["social", "elegancia", "crista", "moda evangelica"],
+    "destaque": false,
+    "estoque": 8,
+    "sku": "SOC-ELE-001",
+    "coresDisponiveis": ["Branco e Preto", "Total Black", "Nude"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["vocePodeGostar"]
   },
   {
-    "id": "juvenil-fe-e-estilo-produto",
+    "id": "juvenil-fe-e-estilo",
     "nome": "Juvenil Fé e Estilo",
     "preco": 109.9,
-    "imagem": [
-      "assets/colecao/juvenil.jpg",
-      "assets/colecao/juvenil.jpg",
-      "assets/colecao/juvenil.jpg"
-    ],
-    "descricao": "Moda jovem evangélica que combina fé e estilo. Peças modernas e comportadas para a juventude.",
+    "imagem": ["assets/colecao/juvenil.jpg", "assets/colecao/juvenil.jpg"],
+    "descricao": "Moda juvenil que combina fé e estilo, para jovens cheios de atitude.",
     "categoria": "juvenil",
-    "tags": ["juvenil", "fé", "estilo", "moda jovem", "evangelica"],
-    "destaque": false
+    "tags": ["juvenil", "fe", "estilo", "moda jovem", "crista"],
+    "destaque": false,
+    "estoque": 16,
+    "sku": "JUV-FEE-001",
+    "coresDisponiveis": [
+      "Jeans com Estampa",
+      "Rosa com Detalhes",
+      "Preto com Branco"
+    ],
+    "tamanhosDisponiveis": ["PP", "P", "M"],
+    "secoes": ["vocePodeGostar"]
   },
   {
-    "id": "cores-vivas-ungidas-produto",
+    "id": "cores-vivas-ungidas",
     "nome": "Cores Vivas Ungidas",
     "preco": 99.9,
     "imagem": [
@@ -245,10 +342,15 @@
       "assets/colecao/cores-vivas.png",
       "assets/colecao/cores-vivas.png"
     ],
-    "descricao": "Peça da coleção Cores Vivas Ungidas, trazendo alegria e modéstia para seu visual cristão.",
-    "categoria": "cores-vivas",
-    "tags": ["cores vivas", "ungidas", "moda evangelica", "colorido"],
-    "destaque": false
+    "descricao": "Peças com cores vibrantes e alegres, inspiradas na unção e alegria.",
+    "categoria": "blusas",
+    "tags": ["cores-vivas", "ungidas", "colorido", "alegre"],
+    "destaque": false,
+    "estoque": 13,
+    "sku": "COR-UNG-001",
+    "coresDisponiveis": ["Amarelo", "Laranja", "Pink", "Verde Limão"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "acessorios-de-louvor",
@@ -256,13 +358,17 @@
     "preco": 59.9,
     "imagem": [
       "assets/colecao/acessorios.png",
-      "assets/colecao/acessorios.png",
       "assets/colecao/acessorios.png"
     ],
-    "descricao": "Acessórios delicados e significativos para complementar seu look de louvor e adoração.",
+    "descricao": "Acessórios delicados para complementar seu visual em momentos de louvor.",
     "categoria": "acessorios",
-    "tags": ["acessorios", "louvor", "bijuteria", "cristao"],
-    "destaque": false
+    "tags": ["acessorios", "louvor", "bijuteria", "delicado"],
+    "destaque": false,
+    "estoque": 30,
+    "sku": "ACE-LOU-001",
+    "coresDisponiveis": ["Dourado", "Prateado", "Rosê Gold"],
+    "tamanhosDisponiveis": ["Único"],
+    "secoes": ["vocePodeGostar"]
   },
   {
     "id": "vestido-verde-elegante",
@@ -273,10 +379,15 @@
       "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Novo vestido verde elegante, perfeito para diversas ocasiões. Destaque-se com modéstia e sofisticação.",
+    "descricao": "Lançamento: Vestido verde elegante, perfeito para diversas ocasiões.",
     "categoria": "vestidos",
-    "tags": ["vestido", "verde", "elegante", "novidade", "feminino"],
-    "destaque": false
+    "tags": ["vestido", "verde", "elegante", "novidade", "moda feminina"],
+    "destaque": true,
+    "estoque": 20,
+    "sku": "VES-VER-001",
+    "coresDisponiveis": ["Verde Esmeralda", "Verde Musgo", "Verde Oliva"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "conjunto-rosa-chic",
@@ -287,10 +398,15 @@
       "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Lançamento: Conjunto rosa super chic e feminino. Ideal para um visual moderno e comportado.",
+    "descricao": "Lançamento: Conjunto rosa super chic e moderno.",
     "categoria": "conjuntos",
-    "tags": ["conjunto", "rosa", "chic", "novidade", "feminino"],
-    "destaque": false
+    "tags": ["conjunto", "rosa", "chic", "novidade", "moda feminina"],
+    "destaque": true,
+    "estoque": 15,
+    "sku": "CON-ROS-001",
+    "coresDisponiveis": ["Rosa Bebê", "Pink", "Rosa Antigo"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "blusa-branca-gola-alta",
@@ -298,13 +414,17 @@
     "preco": 89.9,
     "imagem": [
       "assets/novidades/vestido-verde.png",
-      "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Novidade: Blusa branca com gola alta, uma peça versátil e elegante para compor diversos looks.",
+    "descricao": "Lançamento: Blusa branca básica com gola alta, essencial no guarda-roupa.",
     "categoria": "blusas",
-    "tags": ["blusa", "branca", "gola alta", "novidade", "feminino"],
-    "destaque": false
+    "tags": ["blusa", "branca", "gola-alta", "novidade", "basico"],
+    "destaque": false,
+    "estoque": 25,
+    "sku": "BLU-BRA-001",
+    "coresDisponiveis": ["Branco", "Off-White", "Preto"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "saia-jeans-escura",
@@ -315,10 +435,15 @@
       "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Nova saia jeans escura, modelagem moderna e confortável para o dia a dia da mulher cristã.",
+    "descricao": "Lançamento: Saia jeans em lavagem escura, versátil e estilosa.",
     "categoria": "saias",
-    "tags": ["saia", "jeans", "escura", "novidade", "feminino"],
-    "destaque": false
+    "tags": ["saia", "jeans", "escura", "novidade", "moda feminina"],
+    "destaque": false,
+    "estoque": 18,
+    "sku": "SAI-JES-001",
+    "coresDisponiveis": ["Jeans Escuro", "Jeans Preto"],
+    "tamanhosDisponiveis": ["38", "40", "42", "44", "46"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "vestido-longo-azul",
@@ -326,13 +451,17 @@
     "preco": 139.9,
     "imagem": [
       "assets/novidades/vestido-verde.png",
-      "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Lançamento: Vestido longo azul, uma opção elegante e modesta para eventos especiais.",
+    "descricao": "Lançamento: Vestido longo na cor azul, elegante e fluido.",
     "categoria": "vestidos",
-    "tags": ["vestido", "longo", "azul", "novidade", "feminino"],
-    "destaque": false
+    "tags": ["vestido", "longo", "azul", "novidade", "moda feminina"],
+    "destaque": true,
+    "estoque": 10,
+    "sku": "VES-LAZ-001",
+    "coresDisponiveis": ["Azul Royal", "Azul Marinho", "Azul Petróleo"],
+    "tamanhosDisponiveis": ["P", "M", "G"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "vestido-midi-preto-basico",
@@ -343,10 +472,15 @@
       "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Novidade: Vestido midi preto básico, essencial no guarda-roupa. Combine com diversos acessórios.",
+    "descricao": "Lançamento: Vestido midi preto básico, um coringa para todas as horas.",
     "categoria": "vestidos",
     "tags": ["vestido", "midi", "preto", "basico", "novidade"],
-    "destaque": false
+    "destaque": false,
+    "estoque": 22,
+    "sku": "VES-MPB-001",
+    "coresDisponiveis": ["Preto", "Cinza Mescla Escuro"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "blazer-bege-social",
@@ -354,13 +488,17 @@
     "preco": 179.9,
     "imagem": [
       "assets/novidades/vestido-verde.png",
-      "assets/novidades/vestido-verde.png",
       "assets/novidades/vestido-verde.png"
     ],
-    "descricao": "Novo blazer bege social, perfeito para um look de trabalho elegante e profissional.",
-    "categoria": "blazer",
-    "tags": ["blazer", "bege", "social", "novidade", "casaco"],
-    "destaque": false
+    "descricao": "Lançamento: Blazer bege social, perfeito para um look de trabalho elegante.",
+    "categoria": "casacos",
+    "tags": ["blazer", "bege", "social", "novidade", "moda feminina"],
+    "destaque": true,
+    "estoque": 12,
+    "sku": "BLA-BEG-001",
+    "coresDisponiveis": ["Bege Claro", "Caramelo", "Off-White"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "secoes": ["novidadeMes"]
   },
   {
     "id": "brinco-dourado",
@@ -374,6 +512,11 @@
     "descricao": "Lançamento: Brinco dourado delicado para adicionar um toque de brilho ao seu visual.",
     "categoria": "acessorios",
     "tags": ["brinco", "dourado", "acessorio", "novidade", "bijuteria"],
-    "destaque": false
+    "destaque": false,
+    "estoque": 12,
+    "sku": "BR-DOR-001",
+    "coresDisponiveis": ["Dourado", "Prateado", "Rosê"],
+    "tamanhosDisponiveis": ["Único"],
+    "secoes": ["novidadeMes"]
   }
 ]
