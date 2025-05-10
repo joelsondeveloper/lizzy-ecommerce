@@ -1,0 +1,379 @@
+
+[
+  {
+    "id": "vestidos",
+    "nome": "Vestidos",
+    "imagem": "assets/colecao/vestido.png",
+    "descricao": "Coleção de Vestidos",
+    "tags": ["vestidos", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "conjuntos",
+    "nome": "Conjuntos",
+    "imagem": "assets/colecao/conjunto.png",
+    "descricao": "Coleção de Conjuntos",
+    "tags": ["conjuntos", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "plus-size",
+    "nome": "Plus Size",
+    "imagem": "assets/colecao/plus-size.png",
+    "descricao": "Moda Plus Size",
+    "tags": ["plus size", "moda plus size", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "vestidos-longos",
+    "nome": "Longos",
+    "imagem": "assets/colecao/longos.jpg",
+    "descricao": "Vestidos Longos",
+    "tags": ["longos", "vestidos longos", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "vestidos-midi",
+    "nome": "Midi",
+    "imagem": "assets/colecao/midi.jpg",
+    "descricao": "Vestidos Midi",
+    "tags": ["midi", "vestidos midi", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "blusas",
+    "nome": "Blusas",
+    "imagem": "assets/colecao/blusas.webp",
+    "descricao": "Blusas Evangélicas",
+    "tags": ["blusas", "blusas evangélicas", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "saias-jeans",
+    "nome": "Saias Jeans",
+    "imagem": "assets/colecao/saia-jeans.png",
+    "descricao": "Saias Jeans",
+    "tags": ["saias jeans", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "classico",
+    "nome": "Clássico",
+    "imagem": "assets/colecao/classico.jpg",
+    "descricao": "Moda Evangélica Clássica",
+    "tags": ["clássico", "moda evangélica clássica", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "social",
+    "nome": "Social",
+    "imagem": "assets/colecao/social.jpg",
+    "descricao": "Moda Social",
+    "tags": ["social", "moda social", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "juvenil",
+    "nome": "Juvenil",
+    "imagem": "assets/colecao/juvenil.jpg",
+    "descricao": "Moda Jovem Evangélica",
+    "tags": ["juvenil", "moda jovem evangélica", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "cores-vivas",
+    "nome": "Cores Vivas",
+    "imagem": "assets/colecao/cores-vivas.png",
+    "descricao": "Moda Colorida Cristã",
+    "tags": ["cores vivas", "moda colorida cristã", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "acessorios-colecao",
+    "nome": "Acessórios",
+    "imagem": "assets/colecao/acessorios.png",
+    "descricao": "Coleção de Acessórios",
+    "tags": ["acessórios", "colecao"],
+    "destaque": true
+  },
+  {
+    "id": "vestido-floral-primavera",
+    "nome": "Vestido Floral Primavera",
+    "preco": 129.9,
+    "imagem": [
+      "assets/colecao/vestido.png",
+      "assets/colecao/vestido.png",
+      "assets/colecao/vestido.png"
+    ],
+    "descricao": "Lindo vestido floral, perfeito para a primavera e ocasiões especiais. Tecido leve e confortável.",
+    "categoria": "vestidos",
+    "tags": ["vestido", "floral", "primavera", "evangelico", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "conjunto-elegancia-crista",
+    "nome": "Conjunto Elegância Cristã",
+    "preco": 189.9,
+    "imagem": [
+      "assets/colecao/conjunto.png",
+      "assets/colecao/conjunto.png",
+      "assets/colecao/conjunto.png"
+    ],
+    "descricao": "Conjunto sofisticado para mulheres cristãs, ideal para cultos e eventos formais. Combina saia e blusa.",
+    "categoria": "conjuntos",
+    "tags": ["conjunto", "elegancia", "crista", "social", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "plus-size-conforto-fe",
+    "nome": "Plus Size Conforto & Fé",
+    "preco": 149.9,
+    "imagem": [
+      "assets/colecao/plus-size.png",
+      "assets/colecao/plus-size.png",
+      "assets/colecao/plus-size.png"
+    ],
+    "descricao": "Peça plus size que une conforto e fé, design moderno e caimento perfeito para valorizar suas curvas.",
+    "categoria": "plus-size",
+    "tags": ["plus size", "conforto", "fé", "moda evangelica", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "vestido-longo-de-louvor",
+    "nome": "Vestido Longo de Louvor",
+    "preco": 159.9,
+    "imagem": [
+      "assets/colecao/longos.jpg",
+      "assets/colecao/longos.jpg",
+      "assets/colecao/longos.jpg"
+    ],
+    "descricao": "Vestido longo ideal para momentos de louvor e adoração. Elegância e modéstia em uma só peça.",
+    "categoria": "vestidos",
+    "tags": ["vestido", "longo", "louvor", "evangelico", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "midi-chic-evangelico",
+    "nome": "Midi Chic Evangélico",
+    "preco": 119.9,
+    "imagem": [
+      "assets/colecao/midi.jpg",
+      "assets/colecao/midi.jpg",
+      "assets/colecao/midi.jpg"
+    ],
+    "descricao": "Vestido midi super chic e comportado, perfeito para o dia a dia da mulher evangélica moderna.",
+    "categoria": "vestidos",
+    "tags": ["midi", "chic", "evangelico", "vestido", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "blusa-de-culto-feminina",
+    "nome": "Blusa de Culto Feminina",
+    "preco": 89.9,
+    "imagem": [
+      "assets/colecao/blusas.webp",
+      "assets/colecao/blusas.webp",
+      "assets/colecao/blusas.webp"
+    ],
+    "descricao": "Blusa feminina elegante e modesta, ideal para ir ao culto e outras ocasiões especiais.",
+    "categoria": "blusas",
+    "tags": ["blusa", "culto", "feminina", "evangelica"],
+    "destaque": false
+  },
+  {
+    "id": "saia-jeans-reta-crista",
+    "nome": "Saia Jeans Reta Cristã",
+    "preco": 99.9,
+    "imagem": [
+      "assets/colecao/saia-jeans.png",
+      "assets/colecao/saia-jeans.png",
+      "assets/colecao/saia-jeans.png"
+    ],
+    "descricao": "Saia jeans de corte reto, uma peça chave no guarda-roupa da mulher cristã. Versátil e confortável.",
+    "categoria": "saias",
+    "tags": ["saia", "jeans", "reta", "crista", "evangelica"],
+    "destaque": false
+  },
+  {
+    "id": "classico-sagrado",
+    "nome": "Clássico Sagrado",
+    "preco": 139.9,
+    "imagem": [
+      "assets/colecao/classico.jpg",
+      "assets/colecao/classico.jpg",
+      "assets/colecao/classico.jpg"
+    ],
+    "descricao": "Peça da linha Clássico Sagrado, com design atemporal e elegante para a mulher evangélica.",
+    "categoria": "classico",
+    "tags": ["classico", "sagrado", "moda evangelica", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "social-elegancia-crista-produto",
+    "nome": "Social Elegância Cristã",
+    "preco": 179.9,
+    "imagem": [
+      "assets/colecao/social.jpg",
+      "assets/colecao/social.jpg",
+      "assets/colecao/social.jpg"
+    ],
+    "descricao": "Roupa social que reflete a elegância cristã, perfeita para eventos formais e ambientes de trabalho.",
+    "categoria": "social",
+    "tags": ["social", "elegancia", "crista", "moda evangelica", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "juvenil-fe-e-estilo-produto",
+    "nome": "Juvenil Fé e Estilo",
+    "preco": 109.9,
+    "imagem": [
+      "assets/colecao/juvenil.jpg",
+      "assets/colecao/juvenil.jpg",
+      "assets/colecao/juvenil.jpg"
+    ],
+    "descricao": "Moda jovem evangélica que combina fé e estilo. Peças modernas e comportadas para a juventude.",
+    "categoria": "juvenil",
+    "tags": ["juvenil", "fé", "estilo", "moda jovem", "evangelica"],
+    "destaque": false
+  },
+  {
+    "id": "cores-vivas-ungidas-produto",
+    "nome": "Cores Vivas Ungidas",
+    "preco": 99.9,
+    "imagem": [
+      "assets/colecao/cores-vivas.png",
+      "assets/colecao/cores-vivas.png",
+      "assets/colecao/cores-vivas.png"
+    ],
+    "descricao": "Peça da coleção Cores Vivas Ungidas, trazendo alegria e modéstia para seu visual cristão.",
+    "categoria": "cores-vivas",
+    "tags": ["cores vivas", "ungidas", "moda evangelica", "colorido"],
+    "destaque": false
+  },
+  {
+    "id": "acessorios-de-louvor",
+    "nome": "Acessórios de Louvor",
+    "preco": 59.9,
+    "imagem": [
+      "assets/colecao/acessorios.png",
+      "assets/colecao/acessorios.png",
+      "assets/colecao/acessorios.png"
+    ],
+    "descricao": "Acessórios delicados e significativos para complementar seu look de louvor e adoração.",
+    "categoria": "acessorios",
+    "tags": ["acessorios", "louvor", "bijuteria", "cristao"],
+    "destaque": false
+  },
+  {
+    "id": "vestido-verde-elegante",
+    "nome": "Vestido Verde Elegante",
+    "preco": 129.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Novo vestido verde elegante, perfeito para diversas ocasiões. Destaque-se com modéstia e sofisticação.",
+    "categoria": "vestidos",
+    "tags": ["vestido", "verde", "elegante", "novidade", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "conjunto-rosa-chic",
+    "nome": "Conjunto Rosa Chic",
+    "preco": 149.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Lançamento: Conjunto rosa super chic e feminino. Ideal para um visual moderno e comportado.",
+    "categoria": "conjuntos",
+    "tags": ["conjunto", "rosa", "chic", "novidade", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "blusa-branca-gola-alta",
+    "nome": "Blusa Branca Gola Alta",
+    "preco": 89.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Novidade: Blusa branca com gola alta, uma peça versátil e elegante para compor diversos looks.",
+    "categoria": "blusas",
+    "tags": ["blusa", "branca", "gola alta", "novidade", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "saia-jeans-escura",
+    "nome": "Saia Jeans Escura",
+    "preco": 99.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Nova saia jeans escura, modelagem moderna e confortável para o dia a dia da mulher cristã.",
+    "categoria": "saias",
+    "tags": ["saia", "jeans", "escura", "novidade", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "vestido-longo-azul",
+    "nome": "Vestido Longo Azul",
+    "preco": 139.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Lançamento: Vestido longo azul, uma opção elegante e modesta para eventos especiais.",
+    "categoria": "vestidos",
+    "tags": ["vestido", "longo", "azul", "novidade", "feminino"],
+    "destaque": false
+  },
+  {
+    "id": "vestido-midi-preto-basico",
+    "nome": "Vestido Midi Preto Básico",
+    "preco": 119.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Novidade: Vestido midi preto básico, essencial no guarda-roupa. Combine com diversos acessórios.",
+    "categoria": "vestidos",
+    "tags": ["vestido", "midi", "preto", "basico", "novidade"],
+    "destaque": false
+  },
+  {
+    "id": "blazer-bege-social",
+    "nome": "Blazer Bege Social",
+    "preco": 179.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Novo blazer bege social, perfeito para um look de trabalho elegante e profissional.",
+    "categoria": "blazer",
+    "tags": ["blazer", "bege", "social", "novidade", "casaco"],
+    "destaque": false
+  },
+  {
+    "id": "brinco-dourado",
+    "nome": "Brinco Dourado",
+    "preco": 39.9,
+    "imagem": [
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png",
+      "assets/novidades/vestido-verde.png"
+    ],
+    "descricao": "Lançamento: Brinco dourado delicado para adicionar um toque de brilho ao seu visual.",
+    "categoria": "acessorios",
+    "tags": ["brinco", "dourado", "acessorio", "novidade", "bijuteria"],
+    "destaque": false
+  }
+]
