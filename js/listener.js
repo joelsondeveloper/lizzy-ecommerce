@@ -3,6 +3,8 @@ const dropdownCta = document.querySelector(".dropdown-cta");
 const iconAtendimento = atendimentoHeader.querySelector(".fa-chevron-down");
 const arrCards = Array.from(document.getElementsByClassName("card"));
 const faCartShopping = document.querySelector(".fa-cart-shopping");
+const sectionCart = document.querySelector(".sectionCart");
+const sectionCartExit = document.querySelector(".btnExit");
 
 arrCards.forEach(element => {
   const dataId = element.getAttribute("data-id");
@@ -18,5 +20,9 @@ atendimentoHeader.addEventListener("click", () => {
 });
 
 faCartShopping.addEventListener("click", () => {
-  console.log("clicou");
+  sectionCart.classList.toggle("windowOutside");
 });
+
+sectionCartExit.addEventListener("click", () => {
+  sectionCart.classList.toggle("windowOutside");
+})

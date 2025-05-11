@@ -125,6 +125,7 @@
   
   .hide{
     opacity: 0;
+    pointer-events: none;
   }
   
   .dropdown-cta{
@@ -233,6 +234,9 @@
   }
 
   /* secitonCart */
+  .windowOutside{
+    /* transform: translateX(100%); */
+  }
 
   .sectionCart{
     position: fixed;
@@ -242,5 +246,13 @@
     height: 100vh;
     background-color: var(--background-color);
     z-index: 9;
-    display: none;
+    transition: transform .3s ease-in-out;
+  }
+
+  .sectionCart .btnExit{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    font-size: 2rem;
+    cursor: pointer;
   }

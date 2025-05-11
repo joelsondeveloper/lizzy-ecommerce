@@ -78,6 +78,12 @@
       </div>
     </header>
 
+    <aside class="sectionCart pallet-ligth windowOutside">
+      <div class="btnExit">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </aside>
+
     <main class="product-view">
       <section class="product-carrousel">
         <div class="carrousel-indice">
@@ -93,7 +99,7 @@
           </div>
         </div>
       </section>
-      <section class="product-content">
+      <form class="product-content">
         <!-- <h1>Nome do Produto</h1> -->
         <!-- <p class="product-description">Descrição do produto</p> -->
         <!-- <div class="product-price">
@@ -106,26 +112,35 @@
         <!-- <div class="product-color">
           <h2>Escolha a cor:</h2>
           <div class="product-color-variants">
-            <div class="color-variant"></div>
-            <div class="color-variant"></div>
-            <div class="color-variant"></div>
-            <div class="color-variant"></div>
+            <input type="radio" name="color" id="red" />
+            <label for="red" class="color-variant"></label>
+            <input type="radio" name="color" id="blue" />
+            <label for="blue" class="color-variant"></label>
+            <input type="radio" name="color" id="orange" />
+            <label for="orange" class="color-variant"></label>
+            <input type="radio" name="color" id="yellow" />
+            <label for="yellow" class="color-variant"></label>
           </div>
         </div>
         <div class="product-size">
           <h2>Escolha o tamanho:</h2>
           <div class="product-size-variants">
+            <input type="radio" name="size" id="pp" />
             <label for="pp" class="size-variant">PP</label>
+            <input type="radio" name="size" id="p" />
             <label for="p" class="size-variant">P</label>
+            <input type="radio" name="size" id="m" />
             <label for="m" class="size-variant">M</label>
-            <label for="G" class="size-variant">G</label>
+            <input type="radio" name="size" id="g" />
+            <label for="g" class="size-variant">G</label>
+            <input type="radio" name="size" id="gg" />
             <label for="gg" class="size-variant">GG</label>
           </div>
         </div>
         <div class="product-cta">
-          <button class="btn">Adicionar ao carrinho</button>
+          <button class="btn" type="submit">Adicionar ao carrinho</button>
         </div> -->
-      </section>
+      </form>
     </main>
 
     <script src="js/products.js"></script>

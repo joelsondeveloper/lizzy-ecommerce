@@ -133,6 +133,17 @@
     margin: 1rem 0;
 }
 
+.product-size-variants input[type="radio"], .product-color-variants input[type="radio"]{
+    display: none;
+}
+
+.product-size-variants input[type="radio"]:checked + label{
+    border: 2px solid var(--line-color);
+}
+
+.product-color-variants input[type="radio"]:checked + label{
+    border: 3px solid var(--line-color);
+}
 
 .product-color-variants, .product-size-variants{
     display: flex;
@@ -148,6 +159,10 @@
     background-color: red;
     cursor: pointer;
     transition: all .2s ease-in-out;
+}
+
+.product-color-variants .color-variant:hover{
+    scale: 1.05;
 }
 
 .product-size{

@@ -175,6 +175,11 @@
       "Estampa Floral Escura",
       "Floral com Fundo Rosa"
     ],
+    "coresHexHtml": [
+      "lightpink", 
+      "#8A2BE2", 
+      "pink" 
+    ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
     "secoes": ["vocePodeGostar"]
   },
@@ -190,6 +195,11 @@
     "estoque": 10,
     "sku": "CON-ELE-001",
     "coresDisponiveis": ["Azul Marinho", "Preto", "Vinho"],
+    "coresHexHtml": [
+      "navy", 
+      "#000000", 
+      "maroon"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["vocePodeGostar"]
   },
@@ -209,6 +219,11 @@
     "estoque": 18,
     "sku": "PLU-CFE-001",
     "coresDisponiveis": ["Preto", "Verde Militar", "Terracota"],
+    "coresHexHtml": [
+      "black", 
+      "darkolivegreen", 
+      "#E2725B"
+      ],
     "tamanhosDisponiveis": ["GG", "XG", "G1", "G2"],
     "secoes": ["vocePodeGostar"]
   },
@@ -224,6 +239,11 @@
     "estoque": 12,
     "sku": "VES-LOU-001",
     "coresDisponiveis": ["Branco", "Azul Celeste", "Rosa Claro"],
+    "coresHexHtml": [
+      "#FFFFFF", 
+      "skyblue", 
+      "lightpink"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
     "secoes": ["vocePodeGostar"]
   },
@@ -243,6 +263,11 @@
     "estoque": 20,
     "sku": "VES-MID-001",
     "coresDisponiveis": ["Preto", "Nude", "Marsala"],
+    "coresHexHtml": [
+      "black", 
+      "#F5F5DC", 
+      "#800000"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["vocePodeGostar"]
   },
@@ -258,6 +283,11 @@
     "estoque": 25,
     "sku": "BLU-CUL-001",
     "coresDisponiveis": ["Branca", "Off-white", "Azul Claro"],
+    "coresHexHtml": [
+      "white", 
+      "#F8F8FF", 
+      "lightblue"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
     "secoes": ["vocePodeGostar"]
   },
@@ -277,6 +307,11 @@
     "estoque": 22,
     "sku": "SAI-JEA-001",
     "coresDisponiveis": ["Jeans Claro", "Jeans Médio", "Jeans Escuro"],
+    "coresHexHtml": [
+      "#ADD8E6", 
+      "steelblue", 
+      "#00008B"
+      ],
     "tamanhosDisponiveis": ["36", "38", "40", "42", "44"],
     "secoes": ["vocePodeGostar"]
   },
@@ -292,6 +327,11 @@
     "estoque": 10,
     "sku": "CLA-SAG-001",
     "coresDisponiveis": ["Preto", "Cinza Chumbo", "Bege"],
+    "coresHexHtml": [
+      "black", 
+      "darkslategray", 
+      "beige"
+      ],
     "tamanhosDisponiveis": ["M", "G", "GG"],
     "secoes": ["vocePodeGostar"]
   },
@@ -311,6 +351,11 @@
     "estoque": 8,
     "sku": "SOC-ELE-001",
     "coresDisponiveis": ["Branco e Preto", "Total Black", "Nude"],
+    "coresHexHtml": [
+      "#808080", 
+      "black", 
+      "#D2B48C"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["vocePodeGostar"]
   },
@@ -330,6 +375,11 @@
       "Rosa com Detalhes",
       "Preto com Branco"
     ],
+    "coresHexHtml": [
+      "dodgerblue", 
+      "hotpink", 
+      "#333333"
+      ],
     "tamanhosDisponiveis": ["PP", "P", "M"],
     "secoes": ["vocePodeGostar"]
   },
@@ -349,6 +399,12 @@
     "estoque": 13,
     "sku": "COR-UNG-001",
     "coresDisponiveis": ["Amarelo", "Laranja", "Pink", "Verde Limão"],
+    "coresHexHtml": [
+      "yellow", 
+      "orange", 
+      "#FFC0CB", 
+      "limegreen"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["vocePodeGostar"]
   },
@@ -367,6 +423,11 @@
     "estoque": 30,
     "sku": "ACE-LOU-001",
     "coresDisponiveis": ["Dourado", "Prateado", "Rosê Gold"],
+    "coresHexHtml": [
+      "gold", 
+      "silver", 
+      "#B76E79"
+      ],
     "tamanhosDisponiveis": ["Único"],
     "secoes": ["vocePodeGostar"]
   },
@@ -386,6 +447,11 @@
     "estoque": 20,
     "sku": "VES-VER-001",
     "coresDisponiveis": ["Verde Esmeralda", "Verde Musgo", "Verde Oliva"],
+    "coresHexHtml": [
+      "#50C878", 
+      "olivedrab", 
+      "olive"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
     "secoes": ["novidadeMes"]
   },
@@ -405,6 +471,11 @@
     "estoque": 15,
     "sku": "CON-ROS-001",
     "coresDisponiveis": ["Rosa Bebê", "Pink", "Rosa Antigo"],
+    "coresHexHtml": [
+      "#FFB6C1", 
+      "pink", 
+      "rosybrown"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["novidadeMes"]
   },
@@ -423,6 +494,11 @@
     "estoque": 25,
     "sku": "BLU-BRA-001",
     "coresDisponiveis": ["Branco", "Off-White", "Preto"],
+    "coresHexHtml": [
+      "white", 
+      "#FAF0E6", 
+      "#000000"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
     "secoes": ["novidadeMes"]
   },
@@ -442,6 +518,10 @@
     "estoque": 18,
     "sku": "SAI-JES-001",
     "coresDisponiveis": ["Jeans Escuro", "Jeans Preto"],
+    "coresHexHtml": [
+      "midnightblue", 
+      "#202020"
+      ],
     "tamanhosDisponiveis": ["38", "40", "42", "44", "46"],
     "secoes": ["novidadeMes"]
   },
@@ -460,6 +540,11 @@
     "estoque": 10,
     "sku": "VES-LAZ-001",
     "coresDisponiveis": ["Azul Royal", "Azul Marinho", "Azul Petróleo"],
+    "coresHexHtml": [
+      "royalblue", 
+      "#000080", 
+      "teal"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G"],
     "secoes": ["novidadeMes"]
   },
@@ -479,6 +564,10 @@
     "estoque": 22,
     "sku": "VES-MPB-001",
     "coresDisponiveis": ["Preto", "Cinza Mescla Escuro"],
+    "coresHexHtml": [
+      "black", 
+      "dimgray"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
     "secoes": ["novidadeMes"]
   },
@@ -497,6 +586,11 @@
     "estoque": 12,
     "sku": "BLA-BEG-001",
     "coresDisponiveis": ["Bege Claro", "Caramelo", "Off-White"],
+    "coresHexHtml": [
+      "#F5F5DC", 
+      "#AF6E4D", 
+      "ghostwhite"
+      ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
     "secoes": ["novidadeMes"]
   },
@@ -516,6 +610,11 @@
     "estoque": 12,
     "sku": "BR-DOR-001",
     "coresDisponiveis": ["Dourado", "Prateado", "Rosê"],
+    "coresHexHtml": [
+      "gold", 
+      "#C0C0C0", 
+      "#FFC0CB"
+      ],
     "tamanhosDisponiveis": ["Único"],
     "secoes": ["novidadeMes"]
   }
