@@ -8,7 +8,7 @@ fetch("produtos/produtos.json")
   .then((produtos) => {
     const produto = produtos.filter((produto) => produto.id === id);
     if (produto.length > 0) {
-      renderPage(produto);
+      renderPage(produto[0]);
       // console.log(produto);
     } else {
       console.error("Produto não encontrado");
@@ -39,16 +39,16 @@ function renderPage(produto) {
   const productImg = document.querySelector(".product-img");
   const productContent = document.querySelector(".product-content");
 
-  for (let i = 0; i < produto[0].imagem.length; i++) {
+  for (let i = 0; i < produto.imagem.length; i++) {
     const divIndice = document.createElement("div");
-    divIndice.innerHTML = `<img src="${produto[0].imagem[i]}" alt="${produto[0].nome}">`;
+    divIndice.innerHTML = `<img src="${produto.imagem[i]}" alt="${produto.nome}">`;
     carrouselIndice.appendChild(divIndice);
   }
 
-  for (let i = 0; i < produto[0].imagem.length; i++) {
+  for (let i = 0; i < produto.imagem.length; i++) {
     const img = document.createElement("img");
-    img.src = produto[0].imagem[i];
-    img.alt = produto[0].nome;
+    img.src = produto.imagem[i];
+    img.alt = produto.nome;
     if (i === 0) {
       img.classList.add("product-img-item", "imgAlvo");
     } else {
@@ -74,39 +74,39 @@ function renderPage(produto) {
   productSizeVariants.classList.add("product-size-variants");
   productCta.classList.add("product-cta");
 
-  h1.textContent = produto[0].nome;
-  description.textContent = produto[0].descricao;
+  h1.textContent = produto.nome;
+  description.textContent = produto.descricao;
   productPrice.innerHTML = `
       <p class="product-price-vista">
-        <span class="price">R$ ${produto[0].preco.toFixed(2)}</span>
+        <span class="price">R$ ${produto.preco.toFixed(2)}</span>
         <span>à vista</span> 
       </p>
       <p class="product-price-parcela">ou <span class="price">R$ ${
-        produto[0].preco.toFixed(2)
-      }</span> em 3x de <span class="price">R$ ${(produto[0].preco / 3).toFixed(
+        produto.preco.toFixed(2)
+      }</span> em 3x de <span class="price">R$ ${(produto.preco / 3).toFixed(
     2
   )}</span></p>
     `;
   productColor.innerHTML = `
       <h2>Escolha a cor:</h2>
     `;
-  produto[0].coresDisponiveis.forEach((cor, i) => {
+  produto.coresDisponiveis.forEach((cor, i) => {
     productColorVariants.innerHTML += `
         <input type="radio" name="color" id="${cor}" />
-            <label for="${cor}" class="color-variant" style="background-color: ${produto[0].coresHexHtml[i]};"></label>
+            <label for="${cor}" class="color-variant" style="background-color: ${produto.coresHexHtml[i]};"></label>
       `;
   });
   productSize.innerHTML = `
       <h2>Escolha o tamanho:</h2>
     `;
-  produto[0].tamanhosDisponiveis.forEach((tamanho) => {
+  produto.tamanhosDisponiveis.forEach((tamanho) => {
     productSizeVariants.innerHTML += `
         <input type="radio" name="size" id="${tamanho}" />
             <label for="${tamanho}" class="size-variant">${tamanho}</label>
       `;
   });
   productCta.innerHTML = `
-      <button>Adicionar ao carrinho</button>
+      <button class="btn">Adicionar ao carrinho</button>
     `;
 
   productContent.appendChild(h1);
@@ -117,9 +117,54 @@ function renderPage(produto) {
   productContent.appendChild(productSize);
   productSize.appendChild(productSizeVariants);
   productContent.appendChild(productCta);
+  const btnAddCart = document.querySelector(".btn");
+  btnAddCart.addEventListener("click", () => {
+    addCart(produto)
+  });
 }
+
 
 function updateCarrousel(index) {
   const largura = containImg.getBoundingClientRect().width + 10;
   containImg.style.transform = `translateX(${-largura * index}px)`;
+}
+
+function addCart(produto) {
+  event.preventDefault();
+
+  const productColorVariant = document.querySelector(
+    'input[name="color"]:checked'
+  );
+  const productSizeVariant = document.querySelector(
+    'input[name="size"]:checked'
+  );
+
+  if (!productColorVariant || !productSizeVariant) {
+    console.error("Produto não selecionado");
+    return;
+  }
+
+  const productColor = productColorVariant.id || 0;
+  const productSize = productSizeVariant.id || 0;
+
+  const product = {
+    id: produto.id,
+    nome: produto.nome,
+    imagem: produto.imagem[0],
+    preco: produto.preco,
+    coresDisponiveis: produto.coresDisponiveis,
+    coresHexHtml: produto.coresHexHtml,
+    tamanhosDisponiveis: produto.tamanhosDisponiveis,
+    cor: productColor,
+    tamanho: productSize,
+  };
+
+  if (productColor !== 0 && productSize !== 0) {
+    cart.push(product);
+    console.log(cart);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    renderCart();
+  } else {
+    console.error("Produto não selecionado");
+  }
 }
