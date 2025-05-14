@@ -113,7 +113,7 @@
     font-size: 1.2rem;
 }
 
-.product-price-parcela{
+.product-price-parcela, .cart-item-price-parcela{
     font-size: 1.2rem;
     color: #bbb;
 }

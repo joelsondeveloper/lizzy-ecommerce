@@ -242,13 +242,14 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 33.33%;
+    width: 30%;
     height: 100vh;
     background-color: var(--background-color);
     z-index: 9;
     transition: transform .3s ease-in-out;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
   }
 
   .sectionCart .btnExit{
@@ -285,7 +286,7 @@
     flex-direction: column;
     gap: 1.6rem;
     padding: 1.6rem;
-    border-bottom: 1px solid var(--line-color);
+    border-bottom: 1px solid #ddd;
   }
 
   .cartSection1{
@@ -337,4 +338,30 @@
   .cart-item-quantity span{
     font-size: 1.8rem;
     font-weight: 600;
+  }
+
+  .cartSection3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cart-item-sell{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    font-size: 1.2rem;
+  }
+
+  .cartSection3 span{
+    font-weight: 600;
+    display: block;
+  }
+
+  .cart-item-remove{
+    cursor: pointer;
+  }
+
+  .cart-item-remove i{
+    font-size: 2.2rem;
   }

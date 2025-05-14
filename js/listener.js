@@ -6,6 +6,7 @@ const faCartShopping = document.querySelector(".fa-cart-shopping");
 const sectionCartDiv = document.querySelector(".sectionCart");
 const sectionCartExit = document.querySelector(".btnExit");
 
+
 arrCards.forEach(element => {
   const dataId = element.getAttribute("data-id");
   element.addEventListener("click", () => {
@@ -23,4 +24,3 @@ faCartShopping.addEventListener("click", () => {
   console.log("cart");
   sectionCartDiv.classList.toggle("windowOutside");
 });
-
