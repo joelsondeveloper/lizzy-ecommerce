@@ -176,12 +176,13 @@
       "Floral com Fundo Rosa"
     ],
     "coresHexHtml": [
-      "lightpink", 
-      "#8A2BE2", 
-      "pink" 
+      "lightpink",
+      "#8A2BE2",
+      "pink"
     ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "conjunto-elegancia-crista",
@@ -196,12 +197,13 @@
     "sku": "CON-ELE-001",
     "coresDisponiveis": ["Azul Marinho", "Preto", "Vinho"],
     "coresHexHtml": [
-      "navy", 
-      "#000000", 
+      "navy",
+      "#000000",
       "maroon"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "plus-size-conforto-fe",
@@ -220,12 +222,13 @@
     "sku": "PLU-CFE-001",
     "coresDisponiveis": ["Preto", "Verde Militar", "Terracota"],
     "coresHexHtml": [
-      "black", 
-      "darkolivegreen", 
+      "black",
+      "darkolivegreen",
       "#E2725B"
       ],
     "tamanhosDisponiveis": ["GG", "XG", "G1", "G2"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "vestido-longo-de-louvor",
@@ -240,12 +243,13 @@
     "sku": "VES-LOU-001",
     "coresDisponiveis": ["Branco", "Azul Celeste", "Rosa Claro"],
     "coresHexHtml": [
-      "#FFFFFF", 
-      "skyblue", 
+      "#FFFFFF",
+      "skyblue",
       "lightpink"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "midi-chic-evangelico",
@@ -264,12 +268,13 @@
     "sku": "VES-MID-001",
     "coresDisponiveis": ["Preto", "Nude", "Marsala"],
     "coresHexHtml": [
-      "black", 
-      "#F5F5DC", 
+      "black",
+      "#F5F5DC",
       "#800000"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "blusa-de-culto-feminina",
@@ -284,12 +289,13 @@
     "sku": "BLU-CUL-001",
     "coresDisponiveis": ["Branca", "Off-white", "Azul Claro"],
     "coresHexHtml": [
-      "white", 
-      "#F8F8FF", 
+      "white",
+      "#F8F8FF",
       "lightblue"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "saia-jeans-reta-crista",
@@ -308,12 +314,13 @@
     "sku": "SAI-JEA-001",
     "coresDisponiveis": ["Jeans Claro", "Jeans Médio", "Jeans Escuro"],
     "coresHexHtml": [
-      "#ADD8E6", 
-      "steelblue", 
+      "#ADD8E6",
+      "steelblue",
       "#00008B"
       ],
     "tamanhosDisponiveis": ["36", "38", "40", "42", "44"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "classico-sagrado",
@@ -328,12 +335,13 @@
     "sku": "CLA-SAG-001",
     "coresDisponiveis": ["Preto", "Cinza Chumbo", "Bege"],
     "coresHexHtml": [
-      "black", 
-      "darkslategray", 
+      "black",
+      "darkslategray",
       "beige"
       ],
     "tamanhosDisponiveis": ["M", "G", "GG"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "social-elegancia-crista",
@@ -352,12 +360,13 @@
     "sku": "SOC-ELE-001",
     "coresDisponiveis": ["Branco e Preto", "Total Black", "Nude"],
     "coresHexHtml": [
-      "#808080", 
-      "black", 
+      "#808080",
+      "black",
       "#D2B48C"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "juvenil-fe-e-estilo",
@@ -376,12 +385,13 @@
       "Preto com Branco"
     ],
     "coresHexHtml": [
-      "dodgerblue", 
-      "hotpink", 
+      "dodgerblue",
+      "hotpink",
       "#333333"
       ],
     "tamanhosDisponiveis": ["PP", "P", "M"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "cores-vivas-ungidas",
@@ -400,13 +410,14 @@
     "sku": "COR-UNG-001",
     "coresDisponiveis": ["Amarelo", "Laranja", "Pink", "Verde Limão"],
     "coresHexHtml": [
-      "yellow", 
-      "orange", 
-      "#FFC0CB", 
+      "yellow",
+      "orange",
+      "#FFC0CB",
       "limegreen"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "acessorios-de-louvor",
@@ -424,12 +435,13 @@
     "sku": "ACE-LOU-001",
     "coresDisponiveis": ["Dourado", "Prateado", "Rosê Gold"],
     "coresHexHtml": [
-      "gold", 
-      "silver", 
+      "gold",
+      "silver",
       "#B76E79"
       ],
     "tamanhosDisponiveis": ["Único"],
-    "secoes": ["vocePodeGostar"]
+    "secoes": ["vocePodeGostar"],
+    "percentualDesconto": 10
   },
   {
     "id": "vestido-verde-elegante",
@@ -448,12 +460,13 @@
     "sku": "VES-VER-001",
     "coresDisponiveis": ["Verde Esmeralda", "Verde Musgo", "Verde Oliva"],
     "coresHexHtml": [
-      "#50C878", 
-      "olivedrab", 
+      "#50C878",
+      "olivedrab",
       "olive"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "conjunto-rosa-chic",
@@ -472,12 +485,13 @@
     "sku": "CON-ROS-001",
     "coresDisponiveis": ["Rosa Bebê", "Pink", "Rosa Antigo"],
     "coresHexHtml": [
-      "#FFB6C1", 
-      "pink", 
+      "#FFB6C1",
+      "pink",
       "rosybrown"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "blusa-branca-gola-alta",
@@ -495,12 +509,13 @@
     "sku": "BLU-BRA-001",
     "coresDisponiveis": ["Branco", "Off-White", "Preto"],
     "coresHexHtml": [
-      "white", 
-      "#FAF0E6", 
+      "white",
+      "#FAF0E6",
       "#000000"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "saia-jeans-escura",
@@ -519,11 +534,12 @@
     "sku": "SAI-JES-001",
     "coresDisponiveis": ["Jeans Escuro", "Jeans Preto"],
     "coresHexHtml": [
-      "midnightblue", 
+      "midnightblue",
       "#202020"
       ],
     "tamanhosDisponiveis": ["38", "40", "42", "44", "46"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "vestido-longo-azul",
@@ -541,12 +557,13 @@
     "sku": "VES-LAZ-001",
     "coresDisponiveis": ["Azul Royal", "Azul Marinho", "Azul Petróleo"],
     "coresHexHtml": [
-      "royalblue", 
-      "#000080", 
+      "royalblue",
+      "#000080",
       "teal"
       ],
     "tamanhosDisponiveis": ["P", "M", "G"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "vestido-midi-preto-basico",
@@ -565,11 +582,12 @@
     "sku": "VES-MPB-001",
     "coresDisponiveis": ["Preto", "Cinza Mescla Escuro"],
     "coresHexHtml": [
-      "black", 
+      "black",
       "dimgray"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG", "XG"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "blazer-bege-social",
@@ -587,12 +605,13 @@
     "sku": "BLA-BEG-001",
     "coresDisponiveis": ["Bege Claro", "Caramelo", "Off-White"],
     "coresHexHtml": [
-      "#F5F5DC", 
-      "#AF6E4D", 
+      "#F5F5DC",
+      "#AF6E4D",
       "ghostwhite"
       ],
     "tamanhosDisponiveis": ["P", "M", "G", "GG"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   },
   {
     "id": "brinco-dourado",
@@ -611,11 +630,12 @@
     "sku": "BR-DOR-001",
     "coresDisponiveis": ["Dourado", "Prateado", "Rosê"],
     "coresHexHtml": [
-      "gold", 
-      "#C0C0C0", 
+      "gold",
+      "#C0C0C0",
       "#FFC0CB"
       ],
     "tamanhosDisponiveis": ["Único"],
-    "secoes": ["novidadeMes"]
+    "secoes": ["novidadeMes"],
+    "percentualDesconto": 10
   }
 ]

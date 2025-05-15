@@ -23,4 +23,10 @@ atendimentoHeader.addEventListener("click", () => {
 faCartShopping.addEventListener("click", () => {
   console.log("cart");
   sectionCartDiv.classList.toggle("windowOutside");
+  const windowBlack = document.querySelector(".window-black");
+  windowBlack.classList.toggle("window-black-active");
+  windowBlack.addEventListener("click", () => {
+    sectionCartDiv.classList.add("windowOutside");
+    windowBlack.classList.remove("window-black-active");
+  })
 });

@@ -234,8 +234,19 @@
   }
 
   /* secitonCart */
+  .window-black-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 8;
+    transition: transform .3s ease-in-out;
+  }
+
   .windowOutside{
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
   }
 
   .sectionCart{
@@ -259,6 +270,9 @@
     flex-direction: column;
     gap: 1.6rem;
     border-bottom: 1px solid #ddd;
+    background-color: var(--background-color2);
+    position: sticky;
+    top: 0;
   }
 
   .cart-total-itens h2{
@@ -271,11 +285,12 @@
   }
 
   .sectionCart .btnExit{
-    position: absolute;
+    position: fixed;
     top: 1.6rem;
     right: 1.6rem;
     font-size: 2rem;
     cursor: pointer;
+    z-index: 1000;
   }
 
   .img-empty-cart{
@@ -379,4 +394,33 @@
 
   .cart-item-remove i{
     font-size: 2.2rem;
+  }
+
+  .cart-resume{
+    width: 100%;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    border-top: 1px solid #ddd;
+    background-color: var(--background-color2);
+    position: sticky;
+    bottom: 0
+  }
+
+  .cart-resume h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .cart-resume-itens{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  .cart-resume-item, .cart-resume-total{
+    display: flex;
+    gap: .6rem;
+    justify-content: space-between;
   }

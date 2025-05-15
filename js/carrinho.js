@@ -1,5 +1,6 @@
 const sectionCart = document.querySelector(".sectionCart");
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
+const cartCount = document.querySelector(".cart-count");
 
 function renderCart() {
   sectionCart.innerHTML = "";
@@ -16,16 +17,37 @@ function renderCart() {
   } else {
     const containerCart = document.createElement("div");
     const cartTotalItens = document.createElement("div");
+    const cartResume = document.createElement("div");
 
+    containerCart.classList.add("containerCart");
     cartTotalItens.classList.add("cart-total-itens");
+    cartResume.classList.add("cart-resume");
+
     cartTotalItens.innerHTML = `
     <h2>Seu carrinho</h2>
     <p>seu carrinho tem ${quantityItens(cart)} itens</p>`;
 
-    containerCart.classList.add("containerCart");
+    cartResume.innerHTML = `
+    <h2>Resumo do pedido</h2>
+    <div class="cart-resume-itens">
+      <div class="cart-resume-item">
+        <span>Subtotal</span>
+        <span class="price">R$ ${(totalItens(cart)).toFixed(2)}</span>
+      </div>
+      <div class="cart-resume-item">
+        <span>Descontos</span>
+        <span class="price">-R$ ${(totalDescontos(cart)).toFixed(2)}</span>
+      </div>
+    </div>
+    <div class="cart-resume-total">
+      <span>Total</span>
+      <span class="price">R$ ${(totalItens(cart) - totalDescontos(cart)).toFixed(2)}</span>
+    </div>`;
+
 
     sectionCart.appendChild(cartTotalItens);
     sectionCart.appendChild(containerCart);
+    
 
     cart.forEach((item) => {
       const cartItem = document.createElement("div");
@@ -83,7 +105,7 @@ function renderCart() {
                 <span class="cart-item-seller">E-commerce</span>
               </p>
             </div>
-            <div class="cart-item-remove" data-id="${item.id}">
+            <div class="cart-item-remove" data-id="${item.id} data-cor="${item.cor}" data-tamanho="${item.tamanho}">
               <i class="fa-solid fa-trash"></i>
             </div>
           </div>
@@ -92,6 +114,7 @@ function renderCart() {
       cartItem.classList.add("cart-item");
 
       containerCart.appendChild(cartItem);
+      containerCart.appendChild(cartResume);
 
       if (cart.length > 0) {
         listenerTrash();
@@ -106,6 +129,8 @@ function renderCart() {
   btnExit.addEventListener("click", () => {
     console.log("exit");
     sectionCartDiv.classList.toggle("windowOutside");
+    const windowBlack = document.querySelector(".window-black");
+    windowBlack.classList.toggle("window-black-active");
   });
 
   const cartItemQuantityValue = document.querySelectorAll(
@@ -114,11 +139,13 @@ function renderCart() {
 
   cartItemQuantityValue.forEach((input, index) => {
     input.addEventListener("change", () => {
-      cart[index].quantidade = input.value;
+      cart[index].quantidade = Number(input.value);
       localStorage.setItem("cart", JSON.stringify(cart));
       renderCart();
     });
   });
+
+  cartCount.innerText = `${quantityItens(cart)}`;
 }
 
 function listenerTrash() {
@@ -127,7 +154,7 @@ function listenerTrash() {
   cartItemRemove.forEach((button) => {
     button.addEventListener("click", () => {
       console.log(button.id);
-      cart = cart.filter((item) => item.id != button.dataset.id);
+      cart = cart.filter((item) => (item.id != button.dataset.id) && (item.cor != button.dataset.cor && item.tamanho != button.dataset.tamanho));
       localStorage.setItem("cart", JSON.stringify(cart));
       renderCart();
     });
@@ -136,6 +163,14 @@ function listenerTrash() {
 
 function quantityItens(cart) {
   return cart.reduce((acc, item) => acc + item.quantidade, 0);
+}
+
+function totalItens(cart) {
+  return cart.reduce((acc, item) => acc + item.preco * item.quantidade, 0);
+}
+
+function totalDescontos(cart) {
+  return cart.reduce((acc, item) => acc + (item.preco * (item.desconto / 100)) * item.quantidade, 0);
 }
 
 renderCart();

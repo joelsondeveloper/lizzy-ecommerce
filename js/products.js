@@ -158,6 +158,7 @@ function addCart(produto) {
     tamanhosDisponiveis: produto.tamanhosDisponiveis,
     cor: productColor,
     tamanho: productSize,
+    desconto: produto.percentualDesconto
   };
 
   if (productColor !== 0 && productSize !== 0) {
@@ -167,4 +168,10 @@ function addCart(produto) {
   } else {
     console.error("Produto não selecionado");
   }
+
+  const sectionCartDiv = document.querySelector(".sectionCart");
+
+  sectionCartDiv.classList.toggle("windowOutside");
+  const windowBlack = document.querySelector(".window-black");
+  windowBlack.classList.toggle("window-black-active");
 }
