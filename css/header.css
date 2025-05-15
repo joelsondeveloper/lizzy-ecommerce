@@ -235,7 +235,7 @@
 
   /* secitonCart */
   .windowOutside{
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
   }
 
   .sectionCart{
@@ -250,6 +250,24 @@
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+  }
+
+  .cart-total-itens{
+    width: 100%;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cart-total-itens h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .cart-total-itens p{
+    font-size: 1.4rem;
   }
 
   .sectionCart .btnExit{
@@ -325,19 +343,16 @@
     align-items: center;
   }
 
-  .cart-item-quantity button{
-    cursor: pointer;
-    font-size: 1.6rem;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cart-item-quantity span{
-    font-size: 1.8rem;
+  .cart-item-quantity-value{
+    width: 5rem;
     font-weight: 600;
+    font-size: 1.4rem;
+    padding: 1rem .1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .cartSection3{

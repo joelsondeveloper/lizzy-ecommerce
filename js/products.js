@@ -152,6 +152,7 @@ function addCart(produto) {
     nome: produto.nome,
     imagem: produto.imagem[0],
     preco: produto.preco,
+    quantidade: 3,
     coresDisponiveis: produto.coresDisponiveis,
     coresHexHtml: produto.coresHexHtml,
     tamanhosDisponiveis: produto.tamanhosDisponiveis,
@@ -161,7 +162,6 @@ function addCart(produto) {
 
   if (productColor !== 0 && productSize !== 0) {
     cart.push(product);
-    console.log(cart);
     localStorage.setItem("cart", JSON.stringify(cart));
     renderCart();
   } else {
